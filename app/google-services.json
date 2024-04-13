@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "725150739119",
+    "project_id": "diagnal-task",
+    "storage_bucket": "diagnal-task.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:725150739119:android:b309594300aaa5e6e2025a",
+        "android_client_info": {
+          "package_name": "com.diagnal.diagnaltask"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdJIKRlxFOcDqR3Z2mekoGl1kfERXuoQw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
