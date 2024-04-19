@@ -17,7 +17,7 @@ import org.junit.runner.RunWith
 class MainActivityTest {
 
     @get:Rule
-    val activityRule = ActivityScenarioRule(MainActivity::class.java)
+    val activityScenarioRule = ActivityScenarioRule(MainActivity::class.java)
 
     @Test
     fun testToolbarTitle() {
@@ -30,6 +30,4 @@ class MainActivityTest {
         onView(withId(R.id.ivSearch)).perform(click())
         onView(withId(R.id.etSearch)).check(matches(isDisplayed()))
     }
-
-    // Add more test cases for RecyclerView interactions as needed
 }

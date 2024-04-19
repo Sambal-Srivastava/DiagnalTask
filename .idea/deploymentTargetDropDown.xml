@@ -5,7 +5,13 @@
       <entry key="MainActivityTest">
         <State />
       </entry>
+      <entry key="RowItemTest">
+        <State />
+      </entry>
       <entry key="app">
+        <State />
+      </entry>
+      <entry key="testTitleTextViewText()">
         <State />
       </entry>
       <entry key="testToolbarTitle()">

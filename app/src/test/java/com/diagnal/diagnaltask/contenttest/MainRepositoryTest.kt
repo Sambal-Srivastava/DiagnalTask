@@ -40,12 +40,10 @@ class MainRepositoryTest {
     @Test
     fun `test callApiLogin`() {
         // Mock the JSON data loading
-//        val json = "{ \"page\": { \"title\": \"Test Title\" } }"
         val jsonLoader = JsonLoader(mockContext)
         val json = jsonLoader.loadJsonFromAsset("page1.json")
 
         // Mock the MainResponse object
-//        val expectedResponse = MainResponse(Page(title = "Test Title"))
         val expectedResponse = Gson().fromJson(json, MyResponse::class.java)
 
         // Mock the API call to return Response<MainResponse>
